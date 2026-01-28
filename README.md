@@ -1,48 +1,27 @@
-# 🎮 Rotinas do Bernardo - Versão 9.0
+# 🎮 Rotinas do Bernardo - Versão 7.0
 
-## ✨ Sincronização em Tempo Real Implementada!
+## ✨ Correções Importantes
 
-### Problema Resolvido
-- ✅ Agora funciona em múltiplos dispositivos/navegadores
-- ✅ Quando você marca uma tarefa em casa, aparece no seu celular
-- ✅ Quando seu filho marca uma tarefa, você vê imediatamente
-- ✅ Sincronização automática a cada 3 segundos
-- ✅ Funciona entre abas do mesmo navegador
-- ✅ Funciona entre dispositivos diferentes
+### Persistência de Dados Corrigida
+- ✅ Recompensas agora são salvas permanentemente
+- ✅ Tarefas customizadas não desaparecem mais
+- ✅ Penalidades ficam ativas após criação
+- ✅ Dados são sincronizados com localStorage
+- ✅ Funciona mesmo após fechar e reabrir a aplicação
 
-### Como Funciona
-1. **Sincronização Local**: Dados salvos no localStorage de cada dispositivo
-2. **Sincronização Compartilhada**: Dados sincronizados via localStorage compartilhado
-3. **Atualização em Tempo Real**: Cada dispositivo escuta mudanças dos outros
-4. **Sem Servidor Necessário**: Funciona totalmente no navegador
+### Como Funciona Agora
+1. Quando você cria uma recompensa, tarefa ou penalidade, ela é salva no localStorage
+2. Ao recarregar a página, todos os dados customizados são restaurados
+3. Os dados padrão são preservados, mas não sobrescrevem os customizados
 
-### Fluxo de Sincronização
-```
-Dispositivo A (Casa)
-  ↓
-  Marca tarefa
-  ↓
-  Salva no localStorage
-  ↓
-  Sincroniza via CloudSync
-  ↓
-Dispositivo B (Celular)
-  ↓
-  Recebe atualização
-  ↓
-  Atualiza tela automaticamente
-```
+### Interface Reorganizada
+- ✅ Botão flutuante (catraca) no canto inferior direito
+- ✅ Painel de configurações harmonioso
+- ✅ Todos os controles em um único lugar
 
-### Testado e Funcionando
-- ✅ Abra em dois navegadores/dispositivos
-- ✅ Marque uma tarefa em um
-- ✅ Veja aparecer no outro em tempo real!
-
-### Recursos Inclusos
-- ✅ Sincronização automática entre dispositivos
-- ✅ Logs de debug para monitoramento
-- ✅ Tratamento de erros robusto
-- ✅ Session ID e Device ID para rastreamento
+### Desmarcar Tarefas
+- ✅ Clique em uma tarefa marcada para desmarcar
+- ✅ Pontos são devolvidos automaticamente
 
 ---
 
